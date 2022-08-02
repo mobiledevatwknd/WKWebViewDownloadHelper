@@ -21,11 +21,11 @@ class ViewController: UIViewController {
         let webView = WKWebView(frame: self.view.frame)
         self.view.addSubview(webView)
         webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        let mimeTypes = [MimeType(type: "ms-excel", fileExtension: "xls"),
+        let mimeTypes = [MimeType(type: "png", fileExtension: "png"),
                          MimeType(type: "pdf", fileExtension: "pdf")]
         //helper = WKWebviewDownloadHelper(webView: webView, mimeTypes:mimeTypes, delegate: self)
         downloadHelper = WKDownloadHelper(webView: webView, supportedMimeTypes: mimeTypes, delegate: self)
-        let request = URLRequest(url: URL(string: "https://www.google.it")!)
+        let request = URLRequest(url: URL(string: "https://phoenix-imkas.ottodigital.id/sakumas?phoneNumber=0857000002")!)
         webView.load(request)
         self.webView = webView
         self.navigationItem.title = "My Page"

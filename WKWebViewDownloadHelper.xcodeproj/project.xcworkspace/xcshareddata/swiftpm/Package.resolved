@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "WKDownloadHelper",
+        "repositoryURL": "https://github.com/gualtierofrigerio/WKDownloadHelper",
+        "state": {
+          "branch": null,
+          "revision": "3a13843e37a4bdcbeca9f9357c17fec77893fa3a",
+          "version": "0.3.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
